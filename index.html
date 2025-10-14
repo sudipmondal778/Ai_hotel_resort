@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sudipmondal778 | Novo hotel</title>
+  </head>
+  <body>
+
+
+   <header>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#">N.V.</a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#hotel">HOTELS</a></li>
+      <li><a href="#property">PROPERTIES</a></li>
+      <li><a href="#blog">BLOGS</a></li>
+      <li><a href="#contact0">CONTACT</a></li>
+      <li><a href="#Social">SOCIAL</a></li>
+    </ul>
+  </nav>
+
+  <div class="section__container header__container" id="home">
+    <h1>Book the best hotel in beautiful cities</h1>
+    <div class="header__content">
+      <p class="section__description">
+        Book the best hotel in beautiful countries and make every journey
+        extraordinary. At Royal Hotels, we bring you a collection of premium
+        properties located in the heart of the world's most stunning
+        destinations.
+      </p>
+      <div class="header__btns">
+        <button class="btn">Explore Hotels</button>
+        <button class="btn">Login</button>
+      </div>
+    </div>
+
+   <!-- Booking Form -->
+<div class="booking__wrapper">
+  <div class="booking__bar">
+    <form id="bookingForm" class="booking__form">
+      <h3 class="booking__title">Book Your Stay</h3>
+
+      <div class="form__group">
+        <label>Full Name</label>
+        <input type="text" name="fullname" placeholder="Enter your name" required />
+      </div>
+
+      <div class="form__group">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form__group">
+        <label>Check-In</label>
+        <input type="date" name="checkin" required />
+      </div>
+
+      <div class="form__group">
+        <label>Check-Out</label>
+        <input type="date" name="checkout" required />
+      </div>
+
+      <div class="form__group">
+        <label>Guests</label>
+        <input type="number" name="guests" min="1" value="1" required />
+      </div>
+
+      <div class="form__group">
+        <label>Hotel Name</label>
+        <select name="hotel" required>
+          <option value="">Select Hotel</option>
+          <option value="itc royel bengal">Itc Royal Bengal</option>
+          <option value="udayvilas">Udayvilas</option>
+          <option value="oberoi">Oberoi</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn booking__btn">Book Now</button>
+    </form>
+
+    <p id="message"></p>
+  </div>
+</div>
+
+
+<!-- End Booking Form -->
+
+  </div>
+</header>
+
+
+    <section class="hotel" id="hotel">
+      <div class="section__container hotel__container">
+        <h2 class="section__header">Nearby Hotel</h2>
+        <div class="hotel__grid">
+          <div class="hotel__card">
+            <div class="hotel__image">
+              <div class="hotel__rating">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <img src="hotel-4.jpg" alt="hotel" />
+            </div>
+            <h4>ITC Royel Bengal(kolkata)</h4>
+            <p>$320<span>/night</span></p>
+          </div>
+          <div class="hotel__card">
+            <div class="hotel__image">
+              <div class="hotel__rating">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <img src="hotel-7.jpg" alt="hotel" class="hotelkhali" />
+            </div>
+            <h4>Udayvilas(jaipur)</h4>
+            <p>$580<span>/night</span></p>
+          </div>
+          <div class="hotel__card">
+            <div class="hotel__image">
+              <div class="hotel__rating">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <img src="hotel-8.jpg" alt="hotel"   class="hotelkhali" />
+            </div>
+            <h4> Oberoi (Bengaluru)</h4>
+            <p>$350<span>/night</span></p>
+          </div>
+
+
+      </div>
+    </section>
+
+    <section class="section__container steps__container">
+      <h2 class="section__header">Three easy steps</h2>
+      <div class="steps__grid">
+        <div class="steps__card">
+          <img src="steps-1.jpg" alt="steps" />
+          <h4>See it all</h4>
+          <p class="section__description">
+            Explore top-rated hotels in the world's most beautiful destinations.
+          </p>
+        </div>
+        <div class="steps__card">
+          <img src="steps-2.jpg" alt="steps" />
+          <h4>Compare right here</h4>
+          <p class="section__description">
+            Easily compare prices, amenities, and locations all in one place.
+          </p>
+        </div>
+        <div class="steps__card">
+          <img src="steps-3.jpg" alt="steps" />
+          <h4>Get exclusive rates</h4>
+          <p class="section__description">
+            Book with us and unlock special deals you won't find anywhere else.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="inspiration">
+      <h2 class="section__header">Need Inspiration?</h2>
+      <p class="section__description">
+        View our hand-picked hotel destinations
+      </p>
+      <div class="inspiration__wrapper">
+        <div class="inspiration__card">
+          <img src="inspiration-10.jpg" alt="inspiration" class="hotel-kalia"  />
+          <h4>Kolkata</h4>
+          <p>West Bengal</p>
+        </div>
+        <div class="inspiration__card">
+          <img src="Marine-Drive-1.jpg" alt="inspiration" class="hotel-kalia"   />
+          <h4>Mumbai</h4>
+          <p>Maharastra</p>
+        </div>
+        <div class="inspiration__card">
+          <img src="GettyImages-171676147_full.avif" alt="inspiration" />
+          <h4>Hyderabad</h4>
+          <p>Telengana</p>
+        </div>
+        <div class="inspiration__card">
+          <img src="cd.jpg" alt="inspiration" />
+          <h4>Delhi</h4>
+          <p>Delhi</p>
+        </div>
+        <div class="inspiration__card">
+          <img src="Hawa-Mahal.jpg" alt="inspiration" />
+          <h4>Jaipur</h4>
+          <p>Rajasthan</p>
+        </div>
+        <div class="inspiration__card">
+          <img src="North_Goa_Beach-1024x768.jpg" alt="inspiration" />
+          <h4>Goa</h4>
+          <p>Goa</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="property" id="property">
+      <div class="section__container property__container">
+        <h2 class="section__header">Stay at out top unique properties</h2>
+        <p class="section__description">
+          From castles and villas to boats and igloos, we have it all
+        </p>
+        <div class="property__grid">
+          <div class="property__card">
+            <img src="the_hotel.png" alt="property" class="property-khali" />
+            <div class="property__card__content">
+              <h4>Royal Ocean Pearl</h4>
+              <p>Greece</p>
+              <h5>
+                <span>9.0</span>
+                214 Reviews
+              </h5>
+            </div>
+          </div>
+          <div class="property__card">
+            <img src="kerela_resort.jpg" alt="property" class="property-khali"/>
+            <div class="property__card__content">
+              <h4>Royal Desert Mirage</h4>
+              <p>UAE</p>
+              <h5>
+                <span>9.5</span>
+                518 Reviews
+              </h5>
+            </div>
+          </div>
+          <div class="property__card">
+            <img src="ging-darjeeling-lead.webp" alt="property" class="property-khali"/>
+            <div class="property__card__content">
+              <h4>Royal Alpine Lodge</h4>
+              <p>Switzerland</p>
+              <h5>
+                <span>9.3</span>
+                749 Reviews
+              </h5>
+            </div>
+          </div>
+          <div class="property__card">
+            <img src="078955a_hb_p_002.jpg" alt="property" class="property-khali" />
+            <div class="property__card__content">
+              <h4>Royal Garden Haven</h4>
+              <p>Japan</p>
+              <h5>
+                <span>9.8</span>
+                426 Reviews
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trip__container" id="trip">
+      <h2 class="section__header">Get inspiration for your next trip</h2>
+      <div class="trip__grid">
+        <div class="trip__card">
+          <img src="rajasthan-desert-tour-500x500.webp" alt="trip" />
+          <h4>Top 10 Luxury Stays with Royal Hotels</h4>
+          <p>July 27, 2024</p>
+        </div>
+        <div class="trip__card">
+          <img src="SONAMARG.jpg" alt="trip" />
+          <h4>Inside Our Most Booked Royal Hotels</h4>
+          <p>Sep 15, 2024</p>
+        </div>
+        <div class="trip__card">
+          <img src="Arunachal-Pradesh-India.jpg" alt="trip" />
+          <h4>Most Booked Royal Hotels Revealed</h4>
+          <p>Dec 09, 2024</p>
+        </div>
+        <div class="trip__card">
+          <img src="south-india-tour.jpg" alt="trip" />
+          <h4>How to Choose the Perfect Hotel for Your Vacation</h4>
+          <p>Feb 18, 2025</p>
+        </div>
+        <div class="trip__card">
+          <img src="south-india-tour.jpg" alt="trip" />
+          <h4>How to Choose the Perfect Hotel for Your Vacation</h4>
+          <p>Feb 18, 2025</p>
+        </div>
+        <div class="trip__card">
+          <img src="south-india-tour.jpg" alt="trip" />
+          <h4>How to Choose the Perfect Hotel for Your Vacation</h4>
+          <p>Feb 18, 2025</p>
+        </div>
+        <div class="trip__card">
+          <img src="south-india-tour.jpg" alt="trip" />
+          <h4>How to Choose the Perfect Hotel for Your Vacation</h4>
+          <p>Feb 18, 2025</p>
+        </div>
+        <div class="trip__card">
+          <img src="south-india-tour.jpg" alt="trip" />
+          <h4>How to Choose the Perfect Hotel for Your Vacation</h4>
+          <p>Feb 18, 2025</p>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <section class="discount" id="contact">
+      <div class="section__container">
+        <div class="discount__container">
+          <div class="discount__content">
+            <h2 class="section__header">Get instant discounts</h2>
+            <p class="section__description">
+              Join our Royal Hotels community today and save more every time you
+              book your dream stay around the world.
+            </p>
+          </div>
+          <div class="discount__btns">
+            <button class="btn">Register</button>
+            <button class="btn">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <a href="#" class="footer__logo">Novo Hotel</a>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy Settings</a></li>
+            <li><a href="#">Log In</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Services</a></li>
+            <li><a href="#">Company Details</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Trips</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Sudip778. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+
+
+    <!-- Hotel Assistant Chatbot -->
+<div id="chatbot-bubble"></div>
+<div id="chatbot-box">
+  <div id="chatbot-header">
+    <img src="images.png" alt="Logo" class="chatbot-header-logo" />
+    <span>Hotel Assistant</span>
+  </div>
+  <div id="chatbot-messages"></div>
+  <div id="chatbot-input">
+    <input type="text" id="chatbot-text" placeholder="Ask me about bookings, offers..." />
+    <button id="chatbot-send">➤</button>
+  </div>
+</div>
+
+<style>
+/* Chatbot bubble */
+#chatbot-bubble {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background: url('images.png') center/cover no-repeat;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+  cursor: pointer;
+  z-index: 99999;
+}
+
+/* Chatbot box */
+#chatbot-box {
+  position: fixed;
+  bottom: 95px;
+  left: 20px;
+  width: 330px;
+  height: 460px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 100000;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+#chatbot-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #da7714;
+  color: #fff;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.chatbot-header-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Messages */
+#chatbot-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+.chat-msg {margin: 6px 0;padding:8px 10px;border-radius:10px;max-width:80%;line-height:1.4;}
+.user-msg {background:#da7714;color:#fff;margin-left:auto;}
+.bot-msg {background:#f3f3f3;color:#333;}
+.typing {font-style:italic;color:#999;}
+
+/* Input */
+#chatbot-input {display:flex;border-top:1px solid #eee;}
+#chatbot-input input {flex:1;padding:10px;border:none;outline:none;font-size:14px;}
+#chatbot-input button {background:#da7714;color:#fff;border:none;padding:0 12px;font-size:16px;cursor:pointer;}
+</style>
+
+<script>
+const bubble=document.getElementById("chatbot-bubble");
+const box=document.getElementById("chatbot-box");
+const msgs=document.getElementById("chatbot-messages");
+const text=document.getElementById("chatbot-text");
+const send=document.getElementById("chatbot-send");
+let open=false;
+
+bubble.onclick=()=>{open=!open;box.style.display=open?"flex":"none";};
+
+// Add message
+function addMsg(t,c){const m=document.createElement("div");m.className="chat-msg "+c;m.textContent=t;msgs.appendChild(m);msgs.scrollTop=msgs.scrollHeight;}
+
+// Bot reply
+function botReply(u){
+  const typing=document.createElement("div");
+  typing.className="chat-msg typing";typing.textContent="Assistant is typing...";
+  msgs.appendChild(typing);msgs.scrollTop=msgs.scrollHeight;
+  setTimeout(()=>{
+    typing.remove();
+    let r="Sorry, could you please rephrase?";
+    u=u.toLowerCase();
+    if(u.includes("hello")||u.includes("hi"))r="Hello! 🏨 I’m your Hotel Assistant. How can I help you today?";
+    else if(u.includes("book")||u.includes("room"))r="You can book your stay by selecting check-in/out dates on our booking form above.";
+    else if(u.includes("price")||u.includes("rate"))r="Our prices vary per city — premium rooms start at ₹3,200/night.";
+    else if(u.includes("offer")||u.includes("discount"))r="We currently offer 20% off for online bookings made this week!";
+    else if(u.includes("food")||u.includes("restaurant"))r="Our in-house restaurants serve 5-star international cuisines 🍽️.";
+    else if(u.includes("bye"))r="Goodbye 👋 Have a pleasant stay with Novo Hotel!";
+    addMsg(r,"bot-msg");
+  },1000);
+}
+
+send.onclick=()=>{
+  const v=text.value.trim();
+  if(!v)return;
+  addMsg(v,"user-msg");
+  botReply(v);
+  text.value="";
+};
+text.addEventListener("keypress",e=>{if(e.key==="Enter")send.click();});
+</script>
+
+  </body>
+</html>
